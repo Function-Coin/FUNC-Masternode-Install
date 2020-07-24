@@ -4,13 +4,13 @@ This guide will assist you in setting up a FunctionCoin Masternode on a Linux Se
 
 This guide will show you the safest setup for running a masternode.  This type of setup is known as a Hot/Cold wallet setup.  In this type setup you will have 2 wallets (one with the coins, and one without the coins).  It is the safest setup because your coins will reside in a "cold" wallet ("cold" means that it does not need to constantly be connected to the internet). In this setup, there is very little risk of someone hacking onto your wallet and taking your coins.
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/SFc6EsX)
+If you require further assistance contact the support team on Discord (https://discord.gg/SFc6EsX)
 ***
 ## Requirements
 1) **50001 FUNC coins. (50000.01 coins will work, but it is simpler to say 50001 is required)**
 2) **A VPS running Linux Ubuntu 16.04 or 18.04. (A VPS can be gotten from many companies, but this guide will show screenshots from Vultr, but only the information on which VPS options to purchase will change if you use a different provider)**
 3) **A Windows, Mac, or Linux QT wallet running on a local machine (like your home computer).**
-4) **An SSH client such as [Bitvise](https://bitvise.com/ssh-client-download)  (if you prefer to use Putty or another SSH client, then the instructions will be the same, just that the screenshots below will look different)**
+4) **An SSH client such as Bitvise (https://bitvise.com/ssh-client-download)  (if you prefer to use Putty or another SSH client, then the instructions will be the same, just that the screenshots below will look different)**
 ***
 ## Contents
 * **Section A**: Creating the VPS within Vultr
@@ -22,14 +22,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 * **Section G**: Starting the masternode.
 ***
 
-## Section A: Creating the VPS within [Vultr](https://www.vultr.com/?ref=7409995) 
+## Section A: Creating the VPS within Vultr (https://www.vultr.com/?ref=7409995) 
 ***Step 1***
-* Register at [Vultr](https://www.vultr.com/?ref=7409995)
+* Register at Vultr (https://www.vultr.com/?ref=7409995)
   *Full disclosure note: This is a referral link.  I will get a small commission if you use it. You can use any referral link you wish, but if you use this one, it will support the FUNC team and project.
 ***
 
 ***Step 2***
-* After you have added a payment method (and funds if appropriate) to your Vultr account go [here](https://my.vultr.com/deploy/) to create your VPS
+* After you have added a payment method (and funds if appropriate) to your Vultr account go here (https://my.vultr.com/deploy/) to create your VPS
 ***
 
 ***Step 3*** 
@@ -55,7 +55,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section B: Downloading and installing BitVise. 
 
 ***Step 1***
-* Download Bitvise [here](https://bitvise.com/ssh-client-download)
+* Download Bitvise (https://bitvise.com/ssh-client-download)
 * Click the button in the middle of screen to download latest version.
 ***
 
@@ -67,7 +67,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section C: Connecting to the VPS & Installing the MN script via Bitvise.
 
 ***Step 1***
-* Log into Vultr [here] (https://my.vultr.com)
+* Log into Vultr (https://my.vultr.com)
 * In the middle of the screen, click the link to your VPS you just created
 * Here you can find your VPS IP and password for use in the following steps. To copy the IP or the password to your clipboard when needed in following steps, you would click the `copy` button.
 
@@ -133,7 +133,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Install the wallet and allow it to synchronize fully. If there are no connections or it is not synchronizing, go to the [FUNC discord server](https://discord.gg/SFc6EsX) and search for "addnode" for a list of addnodes and instructions to get the wallet to synchronize.
+* Install the wallet and allow it to synchronize fully. If there are no connections or it is not synchronizing, go to the FUNC discord server (https://discord.gg/SFc6EsX) and search for "addnode" for a list of addnodes and instructions to get the wallet to synchronize.
 ***
 
 ## Section E: Obtaining the coins to run a masternode. 
@@ -189,7 +189,7 @@ In this section you will be sending yourself exactly 50000 coins in one single t
  
 ***Step 6***
 * After a minute or two, the window should change and display a bunch of information regarding your masternode.
-* Now you need to wait until the masternode wallet has synced.  To see how far along it is, type `func-cli getinfo` and press the <enter> key on the keyboard.  As soon as the "block" line item shows that it has the same number of blocks as the [FUNC explorer](http://144.91.96.216:3001), then it is synced.
+* Now you need to wait until the masternode wallet has synced.  To see how far along it is, type `func-cli getinfo` and press the <enter> key on the keyboard.  As soon as the "block" line item shows that it has the same number of blocks as the FUNC explorer (http://144.91.96.216:3001), then it is synced.
 * Once it is synced, you can move on to the next steps
  
  ![CheckBlockCount](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionFStep6.jpg "Check Block Count")
