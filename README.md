@@ -100,15 +100,15 @@ If you require further assistance contact the support team on Discord (https://d
 ***
 
 ***Step 5***
-* Paste the code below into the Bitvise terminal then press the <enter> key (it will just go to a new line because it is downloading a very small script)
- * Note: To paste in the Bitvise terminal you can simply right-click the mouse and whatever is in your clipboard will automatically paste. Do not use <CTRL>+<V> keyboard combination or any control keys like that while using Bitvise.
+* Paste the code below into the Bitvise terminal then press the `<enter>` key on the keyboard (it will just go to a new line because it is downloading a very small script)
+ * Note: To paste in the Bitvise terminal you can simply right-click the mouse and whatever is in your clipboard will automatically paste. Do not use `<CTRL>+<V>` keyboard combination or any control keys like that while using Bitvise.
 
 `wget -q https://raw.githubusercontent.com/LotCooler/FUNC-Masternode-Install/master/FUNC_mn_install.sh`
 
 ***
 
 ***Step 5***
-* Paste the code below into the Bitvise terminal then press the <enter> key
+* Paste the code below into the Bitvise terminal then press the `<enter>` key on the keyboard
 
 `chmod +x FUNC_mn_install.sh`
 
@@ -116,7 +116,7 @@ If you require further assistance contact the support team on Discord (https://d
 
 
 ***Step 6***
-* Paste the code below into the Bitvise terminal then press the <enter> key (this will run the script from above and may take a few minutes to complete)
+* Paste the code below into the Bitvise terminal then press the `<enter>` key on the keyboard (this will run the script from above and may take a few minutes to complete)
 
 `bash FUNC_mn_install.sh`
 
@@ -182,14 +182,14 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 ***
 
 ***Step 5***
-* Go back to your bitvise terminal and paste the private key into the window and press the <enter> key on the keyboard (your bitvise terminal should still be on the prompt we left it on where it is asking for you to enter the masternode private key) (remember, to paste in bitvise terminal, you just right-click the mouse and it will paste automatically)
+* Go back to your bitvise terminal and paste the private key into the window and press the `<enter>` key on the keyboard (your bitvise terminal should still be on the prompt we left it on where it is asking for you to enter the masternode private key) (remember, to paste in bitvise terminal, you just right-click the mouse and it will paste automatically)
  
 ![PasteKey](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionFStep5.jpg "Paste Key")
 ***
  
 ***Step 6***
 * After a minute or two, the window should change and display a bunch of information regarding your masternode.
-* Now you need to wait until the masternode wallet has synced.  To see how far along it is, type `func-cli getinfo` and press the <enter> key on the keyboard.  As soon as the "block" line item shows that it has the same number of blocks as the FUNC explorer (http://144.91.96.216:3001), then it is synced.
+* Now you need to wait until the masternode wallet has synced.  To see how far along it is, type `func-cli getinfo` and press the `<enter>` key on the keyboard.  As soon as the "block" line item shows that it has the same number of blocks as the FUNC explorer (http://144.91.96.216:3001), then it is synced.
 * Once it is synced, you can move on to the next steps
  
  ![CheckBlockCount](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionFStep6.jpg "Check Block Count")
