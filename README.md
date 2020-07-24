@@ -123,7 +123,7 @@ If you require further assistance contact the support team on Discord (https://d
 ***
 
 ***Step 6***
-* When prompted to `Enter your FUNC Masternode Private Key`, DO NOT type or press any keys, just move this window to the side and move on to the next steps and we will return to this window after we get the private key.
+* When prompted to `Enter your FUNC Masternode Private Key`, DO NOT type or press any keys, just move this terminal window to the side and go on to the next steps. We will return to this terminal window after we get the masternode private key from your local controller wallet.
 ***
 
 ## Section D: Preparing the local (cold) wallet 
