@@ -80,7 +80,7 @@ If you require further assistance contact the support team on Discord (https://d
 
 ***Step 3***
 * In the bitvise application, fill in the following...
-  * `Host1` - paste the IP address you copied from the Vultr screen
+  * `Host` - paste the IP address you copied from the Vultr screen
   * `Port` - type `22`
   * `Username` - type `root`
   * `Initial method` - choose `password` in the dropdown
