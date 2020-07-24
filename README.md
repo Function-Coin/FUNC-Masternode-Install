@@ -8,7 +8,7 @@ If you require further assistance contact the support team on Discord (https://d
 ***
 ## Requirements
 1) **50001 FUNC coins. (50000.01 coins will work, but it is simpler to say 50001 is required)**
-2) **A VPS running Linux Ubuntu 16.04 or 18.04. (A VPS can be gotten from many companies, but this guide will show screenshots from Vultr, but only the information on which VPS options to purchase will change if you use a different provider)**
+2) **A VPS running Linux Ubuntu 16.04 or 18.04. (A VPS can be gotten from many companies, but this guide will show screenshots from Vultr, but the method to create the masternode should not change, only the screens when purchasing the VPS or getting the VPS IP address and password may look slightly different if you use a different provider)**
 3) **A Windows, Mac, or Linux QT wallet running on a local machine (like your home computer).**
 4) **An SSH client such as Bitvise (https://bitvise.com/ssh-client-download)  (if you prefer to use Putty or another SSH client, then the instructions will be the same, just that the screenshots below will look different)**
 ***
