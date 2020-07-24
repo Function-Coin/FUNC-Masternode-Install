@@ -25,7 +25,7 @@ If you require further assistance contact the support team on Discord (https://d
 ## Section A: Creating the VPS within Vultr
 ***Step 1***
 * Register at Vultr (https://www.vultr.com/?ref=7409995)
-  *Full disclosure note: This is a referral link.  I will get a small commission if you use it. You will also get a bonus if you use it. But you will get the same bonus if you use a referral link from a friend.
+*Full disclosure note: This is a referral link.  I will get a small commission if you use it. You will also get a bonus if you use it. But you will get the same bonus if you use a referral link from a friend.
 ***
 
 ***Step 2***
