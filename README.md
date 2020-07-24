@@ -103,7 +103,7 @@ If you require further assistance contact the support team on Discord (https://d
 * Paste the code below into the Bitvise terminal then press the `<enter>` key on the keyboard (it will just go to a new line because it is downloading a very small script)
  * Note: To paste in the Bitvise terminal you can simply right-click the mouse and whatever is in your clipboard will automatically paste. Do not use `<CTRL>+<V>` keyboard combination or any control keys like that while using Bitvise.
 
-`wget -q https://raw.githubusercontent.com/LotCooler/FUNC-Masternode-Install/master/FUNC_mn_install.sh`
+`wget -q https://raw.githubusercontent.com/Function-Coin/FUNC-MN-Setup-Guide/master/Function_coin_install.sh`
 
 ***
 
