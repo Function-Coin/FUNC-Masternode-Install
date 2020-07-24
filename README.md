@@ -25,7 +25,7 @@ If you require further assistance contact the support team on Discord (https://d
 ## Section A: Creating the VPS within Vultr
 ***Step 1***
 * Register at Vultr (https://www.vultr.com/?ref=7409995)
-  *Full disclosure note: This is a referral link.  I will get a small commission if you use it. You can use any referral link you wish, but if you use this one, it will support the FUNC team and project.
+  *Full disclosure note: This is a referral link.  I will get a small commission if you use it. You will also get a bonus if you use it. But you will get the same bonus if you use a referral link from a friend.
 ***
 
 ***Step 2***
