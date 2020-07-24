@@ -1,4 +1,4 @@
-![Logo](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/FuncLogo.png)
+![Logo](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/FuncLogo.png)
 # FunctionCoin Masternode Setup Guide
 This guide will assist you in setting up a FunctionCoin Masternode on a Linux Server running Ubuntu 16.04 or 18.04.
 
@@ -35,21 +35,21 @@ If you require further assistance contact the support team on Discord (https://d
 ***Step 3*** 
 * Choose the `Cloud Compute` option and then choose a server location (preferably somewhere close to you)
 
-![Create VPS Step 3](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionAStep3.jpg "Create VPS Step 3")
+![Create VPS Step 3](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionAStep3.jpg "Create VPS Step 3")
 ***
 
 ***Step 4***
 * Choose a server type: Ubuntu 16.04 or 18.04 (if you plan to use this VPS for other masternode coins, it may be best to choose 16.04 for now as some may not have good setups for 18.04)
 * Choose a server size: $5/month is sufficient (a smaller size may work, but you should investigate and research before using a smaller size)
 
-![Create VPS Step 4](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionAStep4.jpg "Create VPS Step 4")
+![Create VPS Step 4](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionAStep4.jpg "Create VPS Step 4")
 ***
 
 ***Step 5*** 
 * Set a Server Hostname (use any name you want to help you remember this VPS. You can use the coin's name to help you remember this server has FUNC on it, but in the future if the VPS has room, you can run masternodes of other coins to this VPS, so you may simply want to name it `Ubuntu1601_1` or something similar)
 * Click `Deploy now`
 
-![Create VPS Step 5](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionAStep5.jpg "Create VPS Step 5")
+![Create VPS Step 5](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionAStep5.jpg "Create VPS Step 5")
 ***
 
 ## Section B: Downloading and installing BitVise. 
@@ -71,7 +71,7 @@ If you require further assistance contact the support team on Discord (https://d
 * In the middle of the screen, click the link to your VPS you just created
 * Here you can find your VPS IP and password for use in the following steps. To copy the IP or the password to your clipboard when needed in following steps, you would click the `copy` icon next to them.
 
-![VPS IP and Password](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionCStep1.jpg "VPS IP and Password")
+![VPS IP and Password](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionCStep1.jpg "VPS IP and Password")
 ***
 
 ***Step 2***
@@ -90,13 +90,13 @@ If you require further assistance contact the support team on Discord (https://d
 * Click the `Log In` button to log into the VPS
 * The first time you connect, you will be alerted that Bitvise noticed this is a new computer and wants to confirm you really want to connect to it. Press the `Accept and Save` button
 
-![Configure Bitvise](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionCStep3.jpg "Configure Bitvise")
+![Configure Bitvise](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionCStep3.jpg "Configure Bitvise")
 ***
 
 ***Step 4***
 * Once you are connected, you may have 2 new windows appear. One window is a file transfer window, the other (the one that is mostly black screen) is the terminal window. If the file transfer window does appear, just press the "X" in the top right corner to close it as you do not need it.
 
-![CloseFileTransferWindow](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionCStep4.jpg "Close file transfer window")
+![CloseFileTransferWindow](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionCStep4.jpg "Close file transfer window")
 ***
 
 ***Step 5***
@@ -157,20 +157,20 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 * The next screen asks for a name for your masternode. Something like `MN1` is usually what people use for their first masternode. Enter a name and click the `Next` button.
 * Then next screen asks for an IP address and Port.  Enter your VPS IP address (the one you copied from the Vultr screen in the steps above), and leave the `Port` value set to 12280. Then click the `Next` button.
 
-![CreateMasternodeController](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep1.jpg "Create Masternode Controller")
+![CreateMasternodeController](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep1.jpg "Create Masternode Controller")
 ***
 
 ***Step 2***
 * The wallet will automatically send the required coins to a new address that has the same label as what you chose for the name of the masternode.
 * Now click the 3 dots at the far right side of the line item for the masternode you just created and choose the `Info` item in the menu that appears.
 
-![3Dots](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep2.jpg "3Dots")
+![3Dots](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep2.jpg "3Dots")
 ***
 
 ***Step 3***
 * In the next window, click the `copy` icon on the right side of the text `Export data to run the Masternode on a remote server`
 
-![ExportDataButton](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep3.jpg "Export Data Button")
+![ExportDataButton](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep3.jpg "Export Data Button")
 ***
 
 ***Step 4***
@@ -178,13 +178,13 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 * Now you have some information in your clipboard. Open a notepad or similar type document so you can paste the information in your clipboard.
 * When you paste the information into a notepad or similar document, you will see lots of information. You want to now copy the value for your `masternodeprivkey`. Do not copy the `masternodeprivkey=` portion, just copy the string of letters and numbers after it.
 
-![Masternodekey](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep4.jpg "Masternode Key")
+![Masternodekey](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep4.jpg "Masternode Key")
 ***
 
 ***Step 5***
 * Go back to your bitvise terminal and paste the private key into the window and press the `<enter>` key on the keyboard (your bitvise terminal should still be on the prompt we left it on where it is asking for you to enter the masternode private key) (remember, to paste in bitvise terminal, you just right-click the mouse and it will paste automatically)
  
-![PasteKey](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep5.jpg "Paste Key")
+![PasteKey](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep5.jpg "Paste Key")
 ***
  
 ***Step 6***
@@ -192,7 +192,7 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 * Now you need to wait until the masternode wallet has synced.  To see how far along it is, type `func-cli getinfo` and press the `<enter>` key on the keyboard.  As soon as the "block" line item shows that it has the same number of blocks as the FUNC explorer (http://144.91.96.216:3001), then it is synced.
 * Once it is synced, you can move on to the next steps
  
- ![CheckBlockCount](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionFStep6.jpg "Check Block Count")
+ ![CheckBlockCount](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionFStep6.jpg "Check Block Count")
 ***
 
 ## Section G: Starting the masternode.
@@ -206,7 +206,7 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 * You can now press the "X" button in the top right of the terminal to close it.
 * You can also shut down your local wallet on your home computer if you wish and your masternode will continue to collect rewards because it is running on the VPS server which will be connected 24/7.
 
- ![MasternodeStatus](https://github.com/Function-Coin/FUNC-Masternode-Install/tree/master/images/SectionGStep1.jpg "Masternode Status")
+ ![MasternodeStatus](https://github.com/Function-Coin/FUNC-Masternode-Install/raw/master/images/SectionGStep1.jpg "Masternode Status")
 ***
 
 ## Last Step. (this is critical, you must do this)
