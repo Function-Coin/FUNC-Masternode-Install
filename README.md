@@ -208,3 +208,6 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 
  ![MasternodeStatus](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionGStep1.jpg "Masternode Status")
 ***
+
+## Last Step.
+***Register your masternode with the bot 
