@@ -94,7 +94,7 @@ If you require further assistance contact the support team on Discord (https://d
 ***
 
 ***Step 4***
-* Once you are connected, you may have 2 new windows appear. One window is a file transfer window, the other (the one that is mostly black screen) is the terminal window. IF the file transfer window does appear, just press the "X" in the top right corner to close it as you do not need it.
+* Once you are connected, you may have 2 new windows appear. One window is a file transfer window, the other (the one that is mostly black screen) is the terminal window. If the file transfer window does appear, just press the "X" in the top right corner to close it as you do not need it.
 
 ![CloseFileTransferWindow](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionCStep4.jpg "Close file transfer window")
 ***
