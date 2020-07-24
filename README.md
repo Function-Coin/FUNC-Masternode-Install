@@ -69,7 +69,7 @@ If you require further assistance contact the support team on Discord (https://d
 ***Step 1***
 * Log into Vultr (https://my.vultr.com)
 * In the middle of the screen, click the link to your VPS you just created
-* Here you can find your VPS IP and password for use in the following steps. To copy the IP or the password to your clipboard when needed in following steps, you would click the `copy` button.
+* Here you can find your VPS IP and password for use in the following steps. To copy the IP or the password to your clipboard when needed in following steps, you would click the `copy` icon next to them.
 
 ![VPS IP and Password](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionCStep1.jpg "VPS IP and Password")
 ***
