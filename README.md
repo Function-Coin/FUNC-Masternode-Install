@@ -22,7 +22,7 @@ If you require further assistance contact the support team on Discord (https://d
 * **Section G**: Starting the masternode.
 ***
 
-## Section A: Creating the VPS within Vultr (https://www.vultr.com/?ref=7409995) 
+## Section A: Creating the VPS within Vultr
 ***Step 1***
 * Register at Vultr (https://www.vultr.com/?ref=7409995)
   *Full disclosure note: This is a referral link.  I will get a small commission if you use it. You can use any referral link you wish, but if you use this one, it will support the FUNC team and project.
@@ -203,6 +203,8 @@ In this section you will be sending yourself exactly 50000 coins in one single t
 * It should say the masternode was succesfully started
 * The local controll wallet is not always correct, so you must confirm the masternode was started on the VPS wallet. So, go back to your Bitvise terminal and type `func-cli getmasternodestatus`
 * You should see a message stating status 4 and the masternode successfully started. If you do not see this, then go to the discord support channels for assistance
+* You can now press the "X" button in the top right of the terminal to close it.
+* You can also shut down your local wallet on your home computer if you wish and your masternode will continue to collect rewards because it is running on the VPS server which will be connected 24/7.
 
  ![MasternodeStatus](https://github.com/LotCooler/FUNC-Masternode-Install/raw/master/images/SectionGStep1.jpg "Masternode Status")
 ***
